@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		639D448B2F703838005700D0 /* DocumentManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639D448A2F703838005700D0 /* DocumentManagerApp.swift */; };
 		639D448D2F703838005700D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639D448C2F703838005700D0 /* ContentView.swift */; };
+		A1B2C3D42F704111005700D0 /* FileBrowserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D52F704111005700D0 /* FileBrowserViewModel.swift */; };
 		639D448F2F70383F005700D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639D448E2F70383F005700D0 /* Assets.xcassets */; };
 		639D44922F70383F005700D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639D44912F70383F005700D0 /* Preview Assets.xcassets */; };
 		639D449D2F70383F005700D0 /* DocumentManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639D449C2F70383F005700D0 /* DocumentManagerTests.swift */; };
@@ -37,6 +38,7 @@
 		639D44872F703838005700D0 /* DocumentManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocumentManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		639D448A2F703838005700D0 /* DocumentManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentManagerApp.swift; sourceTree = "<group>"; };
 		639D448C2F703838005700D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1B2C3D52F704111005700D0 /* FileBrowserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileBrowserViewModel.swift; sourceTree = "<group>"; };
 		639D448E2F70383F005700D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		639D44912F70383F005700D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		639D44932F70383F005700D0 /* DocumentManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DocumentManager.entitlements; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				639D448A2F703838005700D0 /* DocumentManagerApp.swift */,
 				639D448C2F703838005700D0 /* ContentView.swift */,
+				A1B2C3D52F704111005700D0 /* FileBrowserViewModel.swift */,
 				639D448E2F70383F005700D0 /* Assets.xcassets */,
 				639D44932F70383F005700D0 /* DocumentManager.entitlements */,
 				639D44902F70383F005700D0 /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				639D448D2F703838005700D0 /* ContentView.swift in Sources */,
+				A1B2C3D42F704111005700D0 /* FileBrowserViewModel.swift in Sources */,
 				639D448B2F703838005700D0 /* DocumentManagerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,7 +429,6 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DocumentManager/Preview Content\"";
-				DEVELOPMENT_TEAM = 75BH56L2H2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -435,7 +438,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = gene.DocumentManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DocumentManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -452,7 +455,6 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DocumentManager/Preview Content\"";
-				DEVELOPMENT_TEAM = 75BH56L2H2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -462,7 +464,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = gene.DocumentManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DocumentManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -476,11 +478,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 75BH56L2H2;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = gene.DocumentManagerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DocumentManagerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -495,11 +496,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 75BH56L2H2;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = gene.DocumentManagerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DocumentManagerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -513,10 +513,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 75BH56L2H2;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = gene.DocumentManagerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DocumentManagerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -530,10 +529,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 75BH56L2H2;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = gene.DocumentManagerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DocumentManagerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;

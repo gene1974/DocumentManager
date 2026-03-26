@@ -1,10 +1,3 @@
-//
-//  DocumentManagerUITestsLaunchTests.swift
-//  DocumentManagerUITests
-//
-//  Created by Yingzhuo Huang on 2026/3/22.
-//
-
 import XCTest
 
 final class DocumentManagerUITestsLaunchTests: XCTestCase {

@@ -1,10 +1,3 @@
-//
-//  DocumentManagerTests.swift
-//  DocumentManagerTests
-//
-//  Created by Yingzhuo Huang on 2026/3/22.
-//
-
 import XCTest
 @testable import DocumentManager
 
